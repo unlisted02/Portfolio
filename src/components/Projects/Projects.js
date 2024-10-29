@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/voice.jpg";
+import emotion from "../../Assets/Projects/Memory.jpg";
+import editor from "../../Assets/Projects/Learn.jpg";
+import chatify from "../../Assets/Projects/picking.jpg";
+import suicide from "../../Assets/Projects/tour.jpg";
+import bitsOfCode from "../../Assets/Projects/home.jpg";
 
 function Projects() {
   return (
@@ -25,10 +25,11 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Movie Recommendation System"
+              description="About
+Movie Recommendation System with Complete End-to-End Pipeline, Model Intregration & Web Application Hosted. It will also help you build similar projects."
+              ghLink="https://github.com/unlisted02/Movie-Recommendation-System"
+              
             />
           </Col>
 
@@ -36,10 +37,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Smart Home Safety System"
+              description="Built with JavaScript and Python can manage various household functions through automation and user control. JavaScript, especially with frameworks like Node.js, can handle API calls, and front-end web interfaces. Python manages backend automation tasks, control devices via microcontrollers and process sensor data based on user preferences or environmental changes."
+              ghLink="https://github.com/unlisted02/Smart-House-Safety"
+              
             />
           </Col>
 
@@ -47,10 +48,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="E-Learning"
+              description="The project involves the creation of an e-learning website using HTML, CSS, Bootstrap 5, and JavaScript. The website aims to provide a user-friendly and responsive platform for learners to access educational content. Unlisted Academy creates an interactive and visually appealing learning experience."
+              ghLink="https://github.com/unlisted02/E-Learning"
+                            
             />
           </Col>
 
@@ -58,10 +59,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Jarvis AI"
+              description="The Jarvis Desktop Voice Assistant is a Python-based project designed to function as a personal voice assistant for desktop tasks. Through voice commands, it can perform actions like searching Wikipedia, opening browsers, playing music, and more. While not as advanced as movie portrayals, it simplifies daily routines by automating actions commonly performed on a computer. "
+              ghLink="https://github.com/unlisted02/Jarvis--Desktop--Voice--Assistant"
+              
             />
           </Col>
 
@@ -69,10 +70,10 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Tour Site"
+              description="ADVENTURE - Where Every Journey Begins. Adventure is your passport to explore the world's most exciting destinations and discover amazing events, tours, and hidden gems. Our platform is designed to inspire and assist you in planning your next unforgettable journey."
+              ghLink="https://github.com/unlisted02/tourism-website"
+              
             />
           </Col>
 
@@ -80,11 +81,10 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Recoll Memory"
+              description="The memory matching game is an interactive, browser-based game designed with HTML, CSS, and JavaScript. In this game, players aim to match pairs of cards by memorizing their positions. Each level typically increases in difficulty by adding more card pairs, thus challenging the player’s memory skills."
+              ghLink="https://github.com/unlisted02/Memory-Matching-Game"
+              
             />
           </Col>
         </Row>
