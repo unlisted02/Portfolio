@@ -75,6 +75,7 @@ Movie Recommendation System with Complete End-to-End Pipeline, Model Intregratio
               title="Tour Site"
               description="ADVENTURE - Where Every Journey Begins. Adventure is your passport to explore the world's most exciting destinations and discover amazing events, tours, and hidden gems. Our platform is designed to inspire and assist you in planning your next unforgettable journey."
               ghLink="https://github.com/unlisted02/tourism-website"
+              demoLink="https://tourism-website-silk.vercel.app/"
               
             />
           </Col>
