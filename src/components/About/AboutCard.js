@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I have completed my Bsc in Computer Science at Maseno University.
             <br />
-            I am currently employed as a software developer at Techsavanna Company LTD.
+            I am currently employed as a software developer at Kenya Airways <KQ>.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
