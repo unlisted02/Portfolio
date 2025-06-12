@@ -21,7 +21,25 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+            {/* Innovation Management System */} 
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={idea}
+              isBlog={false}
+              title="MyIdea Kenya Airways"
+              subtitle="IMS"
+              description="A comprehensive enterprise-level innovation management platform built with .NET 6.0 and Next.js. Features include idea submission, project tracking, real-time notifications, and analytics. Implements JWT authentication, role-based access control, and integrates with SharePoint. Successfully deployed to production with automated CI/CD pipeline."
+              ghLink="https://github.com/Kq-Michael/KQ-MyIdea"
+              demoLink="https://myidea.kenya-airways.com/"
+              
+            />
+          </Col>
+            
+            
+            
+            
+            <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
