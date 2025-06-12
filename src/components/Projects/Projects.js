@@ -7,6 +7,7 @@ import emotion from "../../Assets/Projects/Memory.jpg";
 import editor from "../../Assets/Projects/Learn.jpg";
 import chatify from "../../Assets/Projects/picking.jpg";
 import suicide from "../../Assets/Projects/tour.jpg";
+import idea from "../../Assets/Projects/ideas.png";
 import bitsOfCode from "../../Assets/Projects/home.jpg";
 
 function Projects() {
